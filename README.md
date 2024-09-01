@@ -10,7 +10,7 @@ Dafür einfach das Repo downloaden und dann im Repo
 - `npm install`
 - `npm run dev`
 
-ausführen, nun kann man die Seite unter [localhost:3000](localhost:3000) finden
+ausführen, nun kann man die Seite unter [localhost:3000](http://localhost:3000) finden
 
 ### Ändern der Apps
 In `/lib/data/appData.ts` einfach die Appdaten so wie vorgegeben verändern und dann unten im Array ändern. fertig!
