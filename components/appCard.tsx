@@ -12,7 +12,7 @@ export default function AppCard({src, alt, title, href}: {src: string, alt:strin
       className={connectStyles(baseStyling, hoverStyling)}
     >
       <div className={'p-5 w-full h-full flex flex-col items-center justify-between '}>
-        <Image src={src} alt={alt} width={200} height={50}/>
+        <Image src={src} alt={alt} height={100} width={100} />
         <span className={'text-lg w-full h-fit'}>{title}</span>
       </div>
     </button>
