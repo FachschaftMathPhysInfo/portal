@@ -1,9 +1,9 @@
 'use client'
-import Image from "next/image";
 import {connectStyles} from "@/lib/utils/stylingConnector";
+import ThemedImage from "@/components/themedImage";
 
 export default function AppCard({src, alt, title, href}: {src: string, alt:string, title: string, href:string}) {
-  const baseStyling: string = 'w-48 h-48 rounded-md border-2 border-gray-500';
+  const baseStyling: string = 'w-48 h-48 rounded-[0.4rem] border-2 border-gray-500';
   const hoverStyling: string = 'hover:border-2 hover:border-red-500';
 
   return (
@@ -12,7 +12,7 @@ export default function AppCard({src, alt, title, href}: {src: string, alt:strin
       className={connectStyles(baseStyling, hoverStyling)}
     >
       <div className={'p-5 w-full h-full flex flex-col items-center justify-between '}>
-        <Image src={src} alt={alt} height={100} width={100} />
+        <ThemedImage srcLight={src} alt={alt}/>
         <span className={'text-lg w-full h-fit'}>{title}</span>
       </div>
     </button>

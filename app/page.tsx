@@ -1,8 +1,7 @@
 import Header from "@/components/header";
 import AppCard from "@/components/appCard";
 import {appDataCollection} from "@/lib/data/appData";
-import {connectStyles} from "@/lib/utils/stylingConnector";
-
+import {connectStyles} from "@/lib/utils/stylingConnector"
 const baseStyling: string = 'grid p-16 w-fit mx-auto min-w-[20rem] grid-cols-1 gap-6';
 const customSmallScreen: string = 'min-[750px]:grid-cols-2';
 const mdStyling: string = 'lg:grid-cols-3';
