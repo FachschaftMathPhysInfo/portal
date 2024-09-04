@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className="w-full h-20 flex flex-row items-center justify-between px-2">
       <Image
-        className="ml-4 hidden dark:block"
+        className="hidden dark:block"
         src={'/icons_dark/banner.png'}
         alt="dark-mode fachschafts logo"
         width={200}
