@@ -44,14 +44,14 @@ const notesIntern: AppData = {
   name: 'Notes (intern)',
   imagePath: '/icons_light/notes_intern.png',
   altText: 'Hedgedoc Icon',
-  linkToApp: 'https://tickets.mathphys.info/'
+  linkToApp: 'https://notes.mathphys.stura.uni-heidelberg.de/'
 }
 
 const notesPublic: AppData = {
   name: 'Notes (public)',
   imagePath: '/icons_light/notes_public.png',
   altText: 'Hedgedoc Icon',
-  linkToApp: 'https://tickets.mathphys.info/'
+  linkToApp: 'https://hedgedoc.mathphys.info'
 }
 
 const passwortmanager: AppData = {
