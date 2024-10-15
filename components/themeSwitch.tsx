@@ -19,7 +19,7 @@ const ThemeSwitch = () => {
   return (
     <button
       id={'theme-switch'}
-      className={'p-0 bg-transparent'}
+      className={'p-1 bg-transparent rounded-3xl'}
       onClick={() => {
         currentTheme === 'dark' ? setTheme('light') : setTheme('dark');
       }}
