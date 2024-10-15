@@ -7,7 +7,7 @@ import {resolve} from "dns";
 const ThemeSwitch = () => {
   const [mounted, setMounted] = useState(false)
   const { theme, setTheme } = useTheme()
-  const currentTheme = theme === 'system' ? 'light' : theme;
+  const currentTheme = theme === 'system' ? 'dark' : theme;
 
   useEffect(() => {
     setMounted(true)
