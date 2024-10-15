@@ -19,7 +19,7 @@ export default function Header() {
         width={200}
         height={60}
       />
-      <span className={'mr-5'}>
+      <span className={'mr-5 flex items-center justify-center'}>
         <ThemeSwitch/>
       </span>
     </div>

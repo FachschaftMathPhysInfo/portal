@@ -11,8 +11,12 @@
         color: #AEAEAE;
     }
 
-    html[class='dark'] button {
+    html[class='dark'] .button {
         background-color: #161921;
+    }
+
+    html[class='dark'] #theme-switch {
+        background-color: transparent;
     }
 
 }
