@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { useTheme } from "next-themes";
 import changeThemedSrc from "@/lib/utils/themeSrcChanger";
 import { useEffect, useState } from "react";
@@ -31,11 +30,10 @@ export default function ThemedImage({srcLight, alt} : {srcLight: string, alt: st
   }
 
   return (
-    <Image
+    <img
+      className={'w-20 h-20 min-[750px]:w-32 min-[750px]:h-32'}
       alt={alt}
       src={src}
-      width={100}
-      height={100}
     />
   );
 }
