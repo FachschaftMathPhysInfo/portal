@@ -55,7 +55,7 @@ const notesPublic: AppData = {
 }
 
 const passwortmanager: AppData = {
-  name: 'Passwortmanager',
+  name: 'Passwörter',
   imagePath: '/icons_light/passwortmanager.png',
   altText: 'Passwortmanager Icon',
   linkToApp: 'https://vaultwarden.mathphys.info/'
