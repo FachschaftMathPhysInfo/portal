@@ -19,12 +19,6 @@ const wiki: AppData = {
   linkToApp: 'https://wiki.mathphys.stura.uni-heidelberg.de/'
 }
 
-//const sumpf: AppData = {
-//  name: 'Sumpf',
-//  imagePath: '/icons_light/sumpf.png',
-//  altText: 'Sumpf Icon',
-//  linkToApp: 'https://svn.mathphys.stura.uni-heidelberg.de/sumpf/'
-//}
 
 const moozean: AppData = {
   name: 'Moozean',
