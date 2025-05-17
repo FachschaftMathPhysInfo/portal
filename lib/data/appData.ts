@@ -34,12 +34,6 @@ const ticketsystem: AppData = {
   linkToApp: 'https://tickets.mathphys.stura.uni-heidelberg.de/'
 }
 
-//const notesIntern: AppData = {
-//  name: 'Notes (intern)',
-//  imagePath: '/icons_light/notes_intern.png',
-//  altText: 'Hedgedoc Icon',
-//  linkToApp: 'https://notes.mathphys.stura.uni-heidelberg.de/'
-//}
 
 const notesPublic: AppData = {
   name: 'Notes (public)',
