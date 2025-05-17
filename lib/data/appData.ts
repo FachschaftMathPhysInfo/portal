@@ -19,12 +19,6 @@ const wiki: AppData = {
   linkToApp: 'https://wiki.mathphys.stura.uni-heidelberg.de/'
 }
 
-const sumpf: AppData = {
-  name: 'Sumpf',
-  imagePath: '/icons_light/sumpf.png',
-  altText: 'Sumpf Icon',
-  linkToApp: 'https://svn.mathphys.stura.uni-heidelberg.de/sumpf/'
-}
 
 const moozean: AppData = {
   name: 'Moozean',
@@ -37,15 +31,9 @@ const ticketsystem: AppData = {
   name: 'Ticketsystem',
   imagePath: '/icons_light/ticketsystem.png',
   altText: 'Ticketsystem Icon',
-  linkToApp: 'https://tickets.mathphys.info/'
+  linkToApp: 'https://tickets.mathphys.stura.uni-heidelberg.de/'
 }
 
-const notesIntern: AppData = {
-  name: 'Notes (intern)',
-  imagePath: '/icons_light/notes_intern.png',
-  altText: 'Hedgedoc Icon',
-  linkToApp: 'https://notes.mathphys.stura.uni-heidelberg.de/'
-}
 
 const notesPublic: AppData = {
   name: 'Notes (public)',
@@ -58,21 +46,21 @@ const passwortmanager: AppData = {
   name: 'Passwörter',
   imagePath: '/icons_light/passwortmanager.png',
   altText: 'Passwortmanager Icon',
-  linkToApp: 'https://vaultwarden.mathphys.info/'
+  linkToApp: 'https://vaultwarden.mathphys.stura.uni-heidelberg.de/
 }
 
 const stapel: AppData = {
   name: 'Stapel',
   imagePath: '/icons_light/stapel.png',
   altText: 'Stapel Icon',
-  linkToApp: 'https://stapel.mathphys.info/'
+  linkToApp: 'https://stapel.mathphys.stura.uni-heidelberg.de/
 }
 
 const wordpress: AppData = {
   name: 'Wordpress',
   imagePath: '/icons_light/wordpress.png',
   altText: 'Wordpress Icon',
-  linkToApp: 'https://mathphys.stura.uni-heidelberg.de/w/wp-login.php'
+  linkToApp: 'https://mathphys.stura.uni-heidelberg.de/wp-login.php'
 }
 
 const partyverwaltung: AppData = {
@@ -89,6 +77,6 @@ const mailman: AppData = {
   linkToApp: 'https://mail.mathphys.stura.uni-heidelberg.de/cgi-bin/mailman/listinfo'
 }
 
-export const appDataCollection: AppData[]= [roundCube, wiki, sumpf, moozean, ticketsystem,
-  notesIntern, notesPublic, passwortmanager, stapel, wordpress, partyverwaltung, mailman]
+export const appDataCollection: AppData[]= [roundCube, wiki, moozean, ticketsystem,
+ notesPublic, passwortmanager, stapel, wordpress, partyverwaltung, mailman]
 
