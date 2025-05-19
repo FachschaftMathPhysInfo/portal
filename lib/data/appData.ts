@@ -46,14 +46,14 @@ const passwortmanager: AppData = {
   name: 'Passwörter',
   imagePath: '/icons_light/passwortmanager.png',
   altText: 'Passwortmanager Icon',
-  linkToApp: 'https://vaultwarden.mathphys.stura.uni-heidelberg.de/
+  linkToApp: 'https://vaultwarden.mathphys.stura.uni-heidelberg.de/'
 }
 
 const stapel: AppData = {
   name: 'Stapel',
   imagePath: '/icons_light/stapel.png',
   altText: 'Stapel Icon',
-  linkToApp: 'https://stapel.mathphys.stura.uni-heidelberg.de/
+  linkToApp: 'https://stapel.mathphys.stura.uni-heidelberg.de/'
 }
 
 const wordpress: AppData = {
@@ -77,6 +77,13 @@ const mailman: AppData = {
   linkToApp: 'https://mail.mathphys.stura.uni-heidelberg.de/cgi-bin/mailman/listinfo'
 }
 
-export const appDataCollection: AppData[]= [roundCube, wiki, moozean, ticketsystem,
- notesPublic, passwortmanager, stapel, wordpress, partyverwaltung, mailman]
+const nextcloud: AppData = {
+  name: 'Nextcloud',
+  imagePath: '/icons_light/nextcloud.png',
+  altText: 'Nextcloud Icon',
+  linkToApp: 'https://nextcloud.mathphys.stura.uni-heidelberg.de/'
+}
+
+export const appDataCollection: AppData[]= [roundCube, nextcloud, wiki, moozean, ticketsystem,
+ notesPublic, passwortmanager, stapel, wordpress, mailman]
 
