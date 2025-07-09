@@ -46,7 +46,7 @@ const passwortmanager: AppData = {
   name: 'Passwörter',
   imagePath: '/icons_light/passwortmanager.png',
   altText: 'Passwortmanager Icon',
-  linkToApp: 'https://vaultwarden.mathphys.stura.uni-heidelberg.de/'
+  linkToApp: 'https://vaultwarden.mathphys.info/'
 }
 
 const stapel: AppData = {
@@ -84,6 +84,6 @@ const nextcloud: AppData = {
   linkToApp: 'https://nextcloud.mathphys.stura.uni-heidelberg.de/'
 }
 
-export const appDataCollection: AppData[]= [roundCube, nextcloud, wiki, moozean, ticketsystem,
- notesPublic, passwortmanager, stapel, wordpress, mailman]
+export const appDataCollection: AppData[] = [roundCube, nextcloud, wiki, moozean, ticketsystem,
+  notesPublic, passwortmanager, stapel, wordpress, mailman]
 
